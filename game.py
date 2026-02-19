@@ -9,9 +9,9 @@ class Game:
         self.win=pg.display.set_mode((400,600))
 
         #background 
-        self.img=pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\flappy-bird-background.jpg").convert(),1)
+        self.img=pg.transform.scale_by(pg.image.load(r"flappy-bird-background.jpg").convert(),1)
         self.rect=self.img.get_rect()
-        self.img2=pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\flappy-bird-background.jpg").convert(),1)
+        self.img2=pg.transform.scale_by(pg.image.load(r"flappy-bird-background.jpg").convert(),1)
         self.rect2=self.img2.get_rect()
         self.scored = False 
 
@@ -21,7 +21,7 @@ class Game:
         self.rect2.y=0
 
         #Score
-        self.score_font = pg.font.Font(r"C:\Users\gurpreet.singh\Desktop\program\font.ttf",9)
+        self.score_font = pg.font.Font(r"font.ttf",9)
         self.score_img=self.score_font.render("Score: 0",True,(0,0,0))
         self.Score_rect=self.score_img.get_rect(center=(30,30))
         self.new_value = 0
@@ -40,7 +40,7 @@ class Game:
         self.collided = False
 
         #Restart
-        self.Restart_font= pg.font.Font(r"C:\Users\gurpreet.singh\Desktop\program\font.ttf",15)
+        self.Restart_font= pg.font.Font(r"font.ttf",15)
         self.Restart_img=self.Restart_font.render("Restart", False, (0,0,0))
         self.Restart_rect=self.Restart_img.get_rect(center=(200,550))
 

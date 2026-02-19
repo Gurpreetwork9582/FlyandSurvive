@@ -11,8 +11,8 @@ class Pipe:
         self.ran_x_up = random.randint(700, 800)
         self.ran_x_down = random.randint(700, 800)
         
-        self.imgup=pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\pipeup.png").convert_alpha(),.15)
-        self.imgdown=pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\pipedown.png").convert_alpha(),.15)
+        self.imgup=pg.transform.scale_by(pg.image.load(r"pipeup.png").convert_alpha(),.15)
+        self.imgdown=pg.transform.scale_by(pg.image.load(r"pipedown.png").convert_alpha(),.15)
         self.rect_imgup=self.imgup.get_rect(center=(self.ran_x_up,self.ran_y_up))
         self.rect_imgdown=self.imgdown.get_rect(center=(self.ran_x_down,self.ran_y_down))
         
