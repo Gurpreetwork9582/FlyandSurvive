@@ -3,7 +3,7 @@ import pygame as pg
 class Bird(pg.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.birdimg = pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\Bird.gif"),.12)
+        self.birdimg = pg.transform.scale_by(pg.image.load(r"C:\Users\gurpreet.singh\Desktop\program\Bird.gif"),.10)
         self.birdrect = self.birdimg.get_rect(center=(60, 80)) 
         
         # velocity in pixels per second (positive => down)
