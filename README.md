@@ -1,6 +1,7 @@
 **🐦 FlyToSurvive**
 
-FlyToSurvive is a simple 2D survival game inspired by classic side-scrolling arcade mechanics. The objective is straightforward: control the bird, fight against gravity, and survive as long as possible.
+FlyToSurvive is a simple 2D survival game inspired by classic side-scrolling arcade mechanics. 
+The objective is straightforward: control the bird, fight against gravity, and survive as long as possible.
 
 This project was built to explore real-time game development concepts using Python and Pygame, including frame-rate independent movement, physics simulation, and object-oriented design.
 
@@ -9,6 +10,7 @@ This project was built to explore real-time game development concepts using Pyth
 Enter – Start the game
 
 Space – Make the bird jump
+
 
 **About the Project**
 
