@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+h1 {
+  margin: 10px;
+}
